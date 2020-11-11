@@ -18,6 +18,7 @@ import { MatSortModule } from '@angular/material/sort';
 @NgModule({
   declarations: [
     AppComponent,
+    TableMaterialComponent,
     TableMaterialComponent
   ],
   imports: [

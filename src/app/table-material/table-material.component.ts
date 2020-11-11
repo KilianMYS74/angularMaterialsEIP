@@ -1,30 +1,119 @@
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
-import { MatPaginator } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
-import { MatTable } from '@angular/material/table';
-import { TableMaterialDataSource, TableMaterialItem } from './table-material-datasource';
+import {Component} from '@angular/core';
+import {animate, state, style, transition, trigger} from '@angular/animations';
 
+/*Todo: add fullname, INS, date, nom maladie, risque, pourcentage, fichiers*/
+
+/**
+ * @title Table with expandable rows
+ */
 @Component({
   selector: 'app-table-material',
   templateUrl: './table-material.component.html',
-  styleUrls: ['./table-material.component.css']
+  styleUrls: ['./table-material.component.css'],
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
+  ],
 })
-export class TableMaterialComponent implements AfterViewInit, OnInit {
-  @ViewChild(MatPaginator) paginator: MatPaginator;
-  @ViewChild(MatSort) sort: MatSort;
-  @ViewChild(MatTable) table: MatTable<TableMaterialItem>;
-  dataSource: TableMaterialDataSource;
-
-  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
-
-  ngOnInit() {
-    this.dataSource = new TableMaterialDataSource();
-  }
-
-  ngAfterViewInit() {
-    this.dataSource.sort = this.sort;
-    this.dataSource.paginator = this.paginator;
-    this.table.dataSource = this.dataSource;
-  }
+export class TableMaterialComponent {
+  dataSource = ELEMENT_DATA;
+  columnsToDisplay = ['fullname', 'INS', 'date', 'nomMaladie', 'risque', 'pourcentage', 'fichiers'];
+  expandedElement: PeriodicElement | null;
 }
+
+export interface PeriodicElement {
+  fullname: string;
+  INS: number;
+  date: string;
+  nomMaladie: string;
+  risque: string;
+  pourcentage: number;
+  fichiers: string;
+}
+
+const ELEMENT_DATA: PeriodicElement[] = [
+  {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  },   {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  },   {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  },   {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  }, {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  },   {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  },   {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  },   {
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
+  }, {
+    fullname: '',
+    name: 'Fluorine',
+    weight: 18.9984,
+    symbol: 'F',
+    description: `Fluorine is a chemical element with symbol F and atomic number 9. It is the
+        lightest halogen and exists as a highly toxic pale yellow diatomic gas at standard
+        conditions.`
+  }, {
+    position: 10,
+    name: 'Neon',
+    weight: 20.1797,
+    symbol: 'Ne',
+    description: `Neon is a chemical element with symbol Ne and atomic number 10. It is a noble gas.
+        Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about
+        two-thirds the density of air.`
+  },
+];
