@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,7 @@ import { paginatorMaterialComponent } from './paginator-material/paginator-mater
 import { rippleMaterialComponent } from './ripple-material/ripple-material.component';
 import { MatRippleModule } from '@angular/material/core';
 import { FormsModule } from '@angular/forms';
+import { tabsMaterialComponent } from './tabs-material/tabs-material.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     TableMaterialComponent,
     chipsMaterialComponent,
     paginatorMaterialComponent,
-    rippleMaterialComponent
+    rippleMaterialComponent,
+    tabsMaterialComponent
   ],
   imports: [
     BrowserModule,
@@ -45,6 +48,7 @@ import { FormsModule } from '@angular/forms';
     MatSortModule,
     MatRippleModule,
     MatCheckboxModule,
+    MatTabsModule,
     FormsModule
   ],
   providers: [],

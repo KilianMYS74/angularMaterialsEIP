@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a configurable paginator">
-      <change afterPath="$PROJECT_DIR$/src/app/ripple-material/ripple-material.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ripple-material/ripple-material.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ripple-material/ripple-material.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ripple-material/ripple-material.component.ts" afterDir="false" />
+    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a configurable ripple for demonstration">
+      <change afterPath="$PROJECT_DIR$/src/app/tabs-material/tabs-material.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/tabs-material/tabs-material.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/tabs-material/tabs-material.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/tabs-material/tabs-material.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/checkbox-module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/checkbox-module.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/checkbox-required-validator.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/checkbox-required-validator.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/checkbox.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/checkbox.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/checkbox/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/ink-bar.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/ink-bar.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/paginated-tab-header.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/paginated-tab-header.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-body.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-body.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-content.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-content.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-group.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-group.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-header.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-header.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-label-wrapper.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-label-wrapper.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-label.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-label.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-nav-bar/tab-nav-bar.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab-nav-bar/tab-nav-bar.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tab.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tabs-module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/tabs/tabs-module.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
     </list>
@@ -88,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605101485188</updated>
-      <workItem from="1605101486200" duration="9251000" />
+      <workItem from="1605101486200" duration="9961000" />
     </task>
     <task id="LOCAL-00001" summary="fresh install with a generated table component from angular/material">
       <created>1605102521291</created>
@@ -125,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605111613389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added a configurable ripple for demonstration">
+      <created>1605112595679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605112595679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +154,8 @@
     <MESSAGE value="Added stacked and plan chips" />
     <MESSAGE value="Added TODO for table-material.component.ts" />
     <MESSAGE value="Added a configurable paginator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a configurable paginator" />
+    <MESSAGE value="Added a configurable ripple for demonstration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a configurable ripple for demonstration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="309" key="#Web_Browsers" timestamp="1605110825443">
@@ -154,9 +170,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605101549286" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605111614720">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605112598323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605111614720" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605112598323" />
   </component>
 </project>
