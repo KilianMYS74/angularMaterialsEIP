@@ -1,0 +1,12 @@
+<mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+  <mat-chip *ngFor="let chip of availableColors" selected [color]="chip.color">
+    {{chip.name}}
+  </mat-chip>
+</mat-chip-list>
+
+<mat-chip-list aria-label="Fish selection">
+  <mat-chip>Un élément</mat-chip>
+  <mat-chip>Deux éléments</mat-chip>
+  <mat-chip color="primary" selected>élément principal</mat-chip>
+  <mat-chip color="accent" selected>élément prioritaire</mat-chip>
+</mat-chip-list>

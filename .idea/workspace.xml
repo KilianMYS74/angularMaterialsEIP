@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="fresh install with a generated table component from angular/material">
+    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Table example">
+      <change afterPath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/chips/chip-input.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/chips/chip-input.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/chips/chip-list.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/chips/chip-list.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/chips/chip.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/chips/chip.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/chips/chips-module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/chips/chips-module.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/chips/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/chips/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/chips/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/chips/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605101485188</updated>
-      <workItem from="1605101486200" duration="5886000" />
+      <workItem from="1605101486200" duration="7523000" />
     </task>
     <task id="LOCAL-00001" summary="fresh install with a generated table component from angular/material">
       <created>1605102521291</created>
@@ -92,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605102521291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Table example">
+      <created>1605109203492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605109203492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,20 +114,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fresh install" />
     <MESSAGE value="fresh install with a generated table component from angular/material" />
-    <option name="LAST_COMMIT_MESSAGE" value="fresh install with a generated table component from angular/material" />
+    <MESSAGE value="Table example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table example" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1605101585384">
+    <state x="757" y="309" key="#Web_Browsers" timestamp="1605110825443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605101585384" />
+    <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605110825443" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1605110801233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605110801233" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1605101549286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605101549286" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605102534745">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605109211505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605102534745" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605109211505" />
   </component>
 </project>
