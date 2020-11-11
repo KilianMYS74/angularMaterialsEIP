@@ -34,6 +34,7 @@ export interface PeriodicElement {
   fichiers: string;
 }
 
+// Todo: Fix position error
 const ELEMENT_DATA: PeriodicElement[] = [
   {
     fullname: 'Kilian Mayans',
@@ -100,13 +101,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
     pourcentage: 33,
     fichiers: 'test.txt'
   }, {
-    fullname: '',
-    name: 'Fluorine',
-    weight: 18.9984,
-    symbol: 'F',
-    description: `Fluorine is a chemical element with symbol F and atomic number 9. It is the
-        lightest halogen and exists as a highly toxic pale yellow diatomic gas at standard
-        conditions.`
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
   }, {
     position: 10,
     name: 'Neon',
