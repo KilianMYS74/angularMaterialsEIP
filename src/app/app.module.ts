@@ -16,12 +16,14 @@ import { TableMaterialComponent } from './table-material/table-material.componen
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { chipsMaterialComponent } from './chips-material/chips-material.component';
+import { paginatorMaterialComponent } from './paginator-material/paginator-material.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableMaterialComponent,
-    chipsMaterialComponent
+    chipsMaterialComponent,
+    paginatorMaterialComponent
   ],
   imports: [
     BrowserModule,
