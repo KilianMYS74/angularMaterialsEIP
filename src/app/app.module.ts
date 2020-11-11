@@ -10,6 +10,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { rippleMaterialComponent } from './ripple-material/ripple-material.compo
 import { MatRippleModule } from '@angular/material/core';
 import { FormsModule } from '@angular/forms';
 import { tabsMaterialComponent } from './tabs-material/tabs-material.component';
+import { tooltipMaterialComponent } from './tooltip-material/tooltip-material.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { tabsMaterialComponent } from './tabs-material/tabs-material.component';
     chipsMaterialComponent,
     paginatorMaterialComponent,
     rippleMaterialComponent,
-    tabsMaterialComponent
+    tabsMaterialComponent,
+    tooltipMaterialComponent
   ],
   imports: [
     BrowserModule,
@@ -49,6 +52,7 @@ import { tabsMaterialComponent } from './tabs-material/tabs-material.component';
     MatRippleModule,
     MatCheckboxModule,
     MatTabsModule,
+    MatTooltipModule,
     FormsModule
   ],
   providers: [],
