@@ -25,6 +25,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { FormsModule } from '@angular/forms';
 import { tabsMaterialComponent } from './tabs-material/tabs-material.component';
 import { tooltipMaterialComponent } from './tooltip-material/tooltip-material.component';
+import { basicChipsMaterialComponent } from './basic-chips-material/basic-chips-material.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { tooltipMaterialComponent } from './tooltip-material/tooltip-material.co
     paginatorMaterialComponent,
     rippleMaterialComponent,
     tabsMaterialComponent,
-    tooltipMaterialComponent
+    tooltipMaterialComponent,
+    basicChipsMaterialComponent
   ],
   imports: [
     BrowserModule,

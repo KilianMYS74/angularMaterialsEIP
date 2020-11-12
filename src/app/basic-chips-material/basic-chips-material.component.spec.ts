@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { tooltipMaterialComponent } from './tooltip-material.component';
+import { BasicChipsMaterialComponent } from './basic-chips-material.component';
 
-describe('TooltipMaterialComponent', () => {
-  let component: tooltipMaterialComponent;
-  let fixture: ComponentFixture<tooltipMaterialComponent>;
+describe('BasicChipsMaterialComponent', () => {
+  let component: BasicChipsMaterialComponent;
+  let fixture: ComponentFixture<BasicChipsMaterialComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ tooltipMaterialComponent ]
+      declarations: [ BasicChipsMaterialComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(tooltipMaterialComponent);
+    fixture = TestBed.createComponent(BasicChipsMaterialComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

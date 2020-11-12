@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a tooltip button" />
+    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a tooltip button">
+      <change afterPath="$PROJECT_DIR$/src/app/basic-chips-material/basic-chips-material.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/basic-chips-material/basic-chips-material.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/basic-chips-material/basic-chips-material.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/basic-chips-material/basic-chips-material.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete-module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete-module.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete-origin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete-origin.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete-trigger.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete-trigger.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/autocomplete.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/divider/divider-module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/divider/divider-module.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/divider/divider.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/divider/divider.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/divider/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/divider/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/divider/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/divider/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/list/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/list/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/list/list-module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/list/list-module.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/list/list.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/list/list.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/list/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/material/list/selection-list.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/material/list/selection-list.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/__ngcc_entry_points__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chips-material/chips-material.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tooltip-material/tooltip-material.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tooltip-material/tooltip-material.component.spec.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +85,7 @@
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (angularMaterialsEIP)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
       <node-interpreter value="project" />
       <envs />
@@ -75,6 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605101485188</updated>
       <workItem from="1605101486200" duration="10584000" />
+      <workItem from="1605167966094" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="fresh install with a generated table component from angular/material">
       <created>1605102521291</created>
@@ -132,11 +180,29 @@
       <option name="project" value="LOCAL" />
       <updated>1605113909419</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Jetbrains config files">
+      <created>1605168017156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605168017156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -149,7 +215,8 @@
     <MESSAGE value="Added a configurable ripple for demonstration" />
     <MESSAGE value="Added a simple tabs group" />
     <MESSAGE value="Added a tooltip button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a tooltip button" />
+    <MESSAGE value="Jetbrains config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jetbrains config files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="309" key="#Web_Browsers" timestamp="1605110825443">
@@ -164,9 +231,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605101549286" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605113910613">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605168023065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605113910613" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605168023065" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605169310358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605169310358" />
   </component>
 </project>

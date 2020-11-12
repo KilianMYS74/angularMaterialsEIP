@@ -109,12 +109,12 @@ const ELEMENT_DATA: PeriodicElement[] = [
     pourcentage: 33,
     fichiers: 'test.txt'
   }, {
-    position: 10,
-    name: 'Neon',
-    weight: 20.1797,
-    symbol: 'Ne',
-    description: `Neon is a chemical element with symbol Ne and atomic number 10. It is a noble gas.
-        Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about
-        two-thirds the density of air.`
+    fullname: 'Kilian Mayans',
+    INS: 46165418,
+    date: '25/11/2020',
+    nomMaladie: 'asthme',
+    risque: '',
+    pourcentage: 33,
+    fichiers: 'test.txt'
   },
 ];

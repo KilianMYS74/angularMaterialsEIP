@@ -23,12 +23,3 @@ export class chipsMaterialComponent {
     {name: 'Urgent', color: 'warn'}
   ];
 }
-
-/**
- * @title Basic chips
- */
-@Component({
-  selector: 'app-chips-material',
-  templateUrl: 'chips-material.component.html',
-})
-export class ChipsOverviewExample {}
