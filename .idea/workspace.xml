@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a simple tabs group">
-      <change afterPath="$PROJECT_DIR$/src/app/tooltip-material/tooltip-material.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/tooltip-material/tooltip-material.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/tooltip-material/tooltip-material.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/tooltip-material/tooltip-material.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a tooltip button" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605101485188</updated>
-      <workItem from="1605101486200" duration="10553000" />
+      <workItem from="1605101486200" duration="10584000" />
     </task>
     <task id="LOCAL-00001" summary="fresh install with a generated table component from angular/material">
       <created>1605102521291</created>
@@ -133,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605113363043</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added a tooltip button">
+      <created>1605113909419</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605113909419</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +148,8 @@
     <MESSAGE value="Added a configurable paginator" />
     <MESSAGE value="Added a configurable ripple for demonstration" />
     <MESSAGE value="Added a simple tabs group" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a simple tabs group" />
+    <MESSAGE value="Added a tooltip button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a tooltip button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="309" key="#Web_Browsers" timestamp="1605110825443">
@@ -164,9 +164,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605101549286" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605113367548">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605113910613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605113367548" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605113910613" />
   </component>
 </project>
