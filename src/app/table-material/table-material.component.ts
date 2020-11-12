@@ -1,8 +1,6 @@
 import {Component} from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 
-/*Todo: add fullname, INS, date, nom maladie, risque, pourcentage, fichiers*/
-
 /**
  * @title Table with expandable rows
  */
@@ -34,7 +32,6 @@ export interface PeriodicElement {
   fichiers: string;
 }
 
-// Todo: Fix position error
 const ELEMENT_DATA: PeriodicElement[] = [
   {
     fullname: 'Kilian Mayans',
