@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76599ae0-6664-453f-9029-0ea76f6759dc" name="Default Changelist" comment="Added a tooltip button">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/table-material/table-material.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/table-material/table-material.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,9 @@
       <updated>1605101485188</updated>
       <workItem from="1605101486200" duration="10584000" />
       <workItem from="1605167966094" duration="2195000" />
-      <workItem from="1605170414440" duration="3421000" />
+      <workItem from="1605170414440" duration="3499000" />
+      <workItem from="1605179718727" duration="371000" />
+      <workItem from="1605186051871" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="fresh install with a generated table component from angular/material">
       <created>1605102521291</created>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605170155450</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed width of the columns in the table">
+      <created>1605173889741</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605173889741</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +217,8 @@
     <MESSAGE value="Jetbrains config files" />
     <MESSAGE value="Fixed every errors that occurred this morning before the presentation (obviously uh...)&#10;Added a brand new component for basic-chips" />
     <MESSAGE value="Modules files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modules files" />
+    <MESSAGE value="Fixed width of the columns in the table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed width of the columns in the table" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="309" key="#Web_Browsers" timestamp="1605173207571">
@@ -227,10 +233,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605101549286" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605170156609">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605173895863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605170156609" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1605173895863" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605169310358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
